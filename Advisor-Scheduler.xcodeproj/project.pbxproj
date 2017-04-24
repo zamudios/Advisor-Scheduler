@@ -7,21 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1724485E2A4E2E0CDC5D18BA /* Pods_Advisor_Scheduler.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE47E8683F75E590FDF65E3C /* Pods_Advisor_Scheduler.framework */; };
 		5E128E081EAE709C00B45EE6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E128E071EAE709C00B45EE6 /* AppDelegate.swift */; };
-		5E128E0A1EAE709C00B45EE6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E128E091EAE709C00B45EE6 /* ViewController.swift */; };
+		5E128E0A1EAE709C00B45EE6 /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E128E091EAE709C00B45EE6 /* SignInVC.swift */; };
 		5E128E0D1EAE709C00B45EE6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E128E0B1EAE709C00B45EE6 /* Main.storyboard */; };
 		5E128E0F1EAE709C00B45EE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E128E0E1EAE709C00B45EE6 /* Assets.xcassets */; };
 		5E128E121EAE709C00B45EE6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E128E101EAE709C00B45EE6 /* LaunchScreen.storyboard */; };
+		5E128E1A1EAE717300B45EE6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5E128E191EAE717300B45EE6 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5E128E041EAE709C00B45EE6 /* Advisor-Scheduler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Advisor-Scheduler.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E128E071EAE709C00B45EE6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5E128E091EAE709C00B45EE6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5E128E091EAE709C00B45EE6 /* SignInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
 		5E128E0C1EAE709C00B45EE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5E128E0E1EAE709C00B45EE6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5E128E111EAE709C00B45EE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5E128E131EAE709C00B45EE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E128E191EAE717300B45EE6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		754C31F9C22B03F7AEEAD90E /* Pods-Advisor-Scheduler.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Advisor-Scheduler.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Advisor-Scheduler/Pods-Advisor-Scheduler.debug.xcconfig"; sourceTree = "<group>"; };
+		B3C97F4F25A0819B6A917073 /* Pods-Advisor-Scheduler.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Advisor-Scheduler.release.xcconfig"; path = "Pods/Target Support Files/Pods-Advisor-Scheduler/Pods-Advisor-Scheduler.release.xcconfig"; sourceTree = "<group>"; };
+		BE47E8683F75E590FDF65E3C /* Pods_Advisor_Scheduler.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Advisor_Scheduler.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1724485E2A4E2E0CDC5D18BA /* Pods_Advisor_Scheduler.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +47,8 @@
 			children = (
 				5E128E061EAE709C00B45EE6 /* Advisor-Scheduler */,
 				5E128E051EAE709C00B45EE6 /* Products */,
+				F41C7A7861FD18CC1EF6E9F0 /* Pods */,
+				EBB95DEF4A2E7186929FA6DA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +63,48 @@
 		5E128E061EAE709C00B45EE6 /* Advisor-Scheduler */ = {
 			isa = PBXGroup;
 			children = (
+				5E128E1D1EAE793100B45EE6 /* Controller */,
+				5E128E1B1EAE790C00B45EE6 /* Model */,
 				5E128E071EAE709C00B45EE6 /* AppDelegate.swift */,
-				5E128E091EAE709C00B45EE6 /* ViewController.swift */,
 				5E128E0B1EAE709C00B45EE6 /* Main.storyboard */,
 				5E128E0E1EAE709C00B45EE6 /* Assets.xcassets */,
 				5E128E101EAE709C00B45EE6 /* LaunchScreen.storyboard */,
 				5E128E131EAE709C00B45EE6 /* Info.plist */,
+				5E128E191EAE717300B45EE6 /* GoogleService-Info.plist */,
 			);
 			path = "Advisor-Scheduler";
+			sourceTree = "<group>";
+		};
+		5E128E1B1EAE790C00B45EE6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		5E128E1D1EAE793100B45EE6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5E128E091EAE709C00B45EE6 /* SignInVC.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		EBB95DEF4A2E7186929FA6DA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BE47E8683F75E590FDF65E3C /* Pods_Advisor_Scheduler.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F41C7A7861FD18CC1EF6E9F0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				754C31F9C22B03F7AEEAD90E /* Pods-Advisor-Scheduler.debug.xcconfig */,
+				B3C97F4F25A0819B6A917073 /* Pods-Advisor-Scheduler.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +114,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5E128E161EAE709C00B45EE6 /* Build configuration list for PBXNativeTarget "Advisor-Scheduler" */;
 			buildPhases = (
+				A50788BE350A52E343942391 /* [CP] Check Pods Manifest.lock */,
 				5E128E001EAE709C00B45EE6 /* Sources */,
 				5E128E011EAE709C00B45EE6 /* Frameworks */,
 				5E128E021EAE709C00B45EE6 /* Resources */,
+				2DA9DBB9B168B4443392C5D9 /* [CP] Embed Pods Frameworks */,
+				A5B7D06BE7D862E50647235C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -124,6 +170,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5E128E121EAE709C00B45EE6 /* LaunchScreen.storyboard in Resources */,
+				5E128E1A1EAE717300B45EE6 /* GoogleService-Info.plist in Resources */,
 				5E128E0F1EAE709C00B45EE6 /* Assets.xcassets in Resources */,
 				5E128E0D1EAE709C00B45EE6 /* Main.storyboard in Resources */,
 			);
@@ -131,12 +178,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2DA9DBB9B168B4443392C5D9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Advisor-Scheduler/Pods-Advisor-Scheduler-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A50788BE350A52E343942391 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A5B7D06BE7D862E50647235C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Advisor-Scheduler/Pods-Advisor-Scheduler-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5E128E001EAE709C00B45EE6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5E128E0A1EAE709C00B45EE6 /* ViewController.swift in Sources */,
+				5E128E0A1EAE709C00B45EE6 /* SignInVC.swift in Sources */,
 				5E128E081EAE709C00B45EE6 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -260,6 +355,7 @@
 		};
 		5E128E171EAE709C00B45EE6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 754C31F9C22B03F7AEEAD90E /* Pods-Advisor-Scheduler.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Advisor-Scheduler/Info.plist";
@@ -272,6 +368,7 @@
 		};
 		5E128E181EAE709C00B45EE6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3C97F4F25A0819B6A917073 /* Pods-Advisor-Scheduler.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Advisor-Scheduler/Info.plist";
@@ -301,6 +398,7 @@
 				5E128E181EAE709C00B45EE6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

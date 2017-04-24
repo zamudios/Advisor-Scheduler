@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>993518056941-lql2gontmrmca1t18tuepc8oq3dq4o63.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.993518056941-lql2gontmrmca1t18tuepc8oq3dq4o63</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAyIbb6G6GeWoGF0yLE9VQBLYi87k_gp6A</string>
+	<key>GCM_SENDER_ID</key>
+	<string>993518056941</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.Paranoid-Jobs.Advisor-Scheduler</string>
+	<key>PROJECT_ID</key>
+	<string>advisor-scheduler</string>
+	<key>STORAGE_BUCKET</key>
+	<string>advisor-scheduler.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:993518056941:ios:f81f5748a10bd834</string>
+	<key>DATABASE_URL</key>
+	<string>https://advisor-scheduler.firebaseio.com</string>
+</dict>
+</plist>
