@@ -1,0 +1,308 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5E128E081EAE709C00B45EE6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E128E071EAE709C00B45EE6 /* AppDelegate.swift */; };
+		5E128E0A1EAE709C00B45EE6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E128E091EAE709C00B45EE6 /* ViewController.swift */; };
+		5E128E0D1EAE709C00B45EE6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E128E0B1EAE709C00B45EE6 /* Main.storyboard */; };
+		5E128E0F1EAE709C00B45EE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E128E0E1EAE709C00B45EE6 /* Assets.xcassets */; };
+		5E128E121EAE709C00B45EE6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E128E101EAE709C00B45EE6 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5E128E041EAE709C00B45EE6 /* Advisor-Scheduler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Advisor-Scheduler.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E128E071EAE709C00B45EE6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5E128E091EAE709C00B45EE6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5E128E0C1EAE709C00B45EE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5E128E0E1EAE709C00B45EE6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5E128E111EAE709C00B45EE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5E128E131EAE709C00B45EE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5E128E011EAE709C00B45EE6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5E128DFB1EAE709C00B45EE6 = {
+			isa = PBXGroup;
+			children = (
+				5E128E061EAE709C00B45EE6 /* Advisor-Scheduler */,
+				5E128E051EAE709C00B45EE6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5E128E051EAE709C00B45EE6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5E128E041EAE709C00B45EE6 /* Advisor-Scheduler.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5E128E061EAE709C00B45EE6 /* Advisor-Scheduler */ = {
+			isa = PBXGroup;
+			children = (
+				5E128E071EAE709C00B45EE6 /* AppDelegate.swift */,
+				5E128E091EAE709C00B45EE6 /* ViewController.swift */,
+				5E128E0B1EAE709C00B45EE6 /* Main.storyboard */,
+				5E128E0E1EAE709C00B45EE6 /* Assets.xcassets */,
+				5E128E101EAE709C00B45EE6 /* LaunchScreen.storyboard */,
+				5E128E131EAE709C00B45EE6 /* Info.plist */,
+			);
+			path = "Advisor-Scheduler";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5E128E031EAE709C00B45EE6 /* Advisor-Scheduler */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E128E161EAE709C00B45EE6 /* Build configuration list for PBXNativeTarget "Advisor-Scheduler" */;
+			buildPhases = (
+				5E128E001EAE709C00B45EE6 /* Sources */,
+				5E128E011EAE709C00B45EE6 /* Frameworks */,
+				5E128E021EAE709C00B45EE6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Advisor-Scheduler";
+			productName = "Advisor-Scheduler";
+			productReference = 5E128E041EAE709C00B45EE6 /* Advisor-Scheduler.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5E128DFC1EAE709C00B45EE6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Paranoid-Jobs";
+				TargetAttributes = {
+					5E128E031EAE709C00B45EE6 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 5E128DFF1EAE709C00B45EE6 /* Build configuration list for PBXProject "Advisor-Scheduler" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5E128DFB1EAE709C00B45EE6;
+			productRefGroup = 5E128E051EAE709C00B45EE6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5E128E031EAE709C00B45EE6 /* Advisor-Scheduler */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5E128E021EAE709C00B45EE6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E128E121EAE709C00B45EE6 /* LaunchScreen.storyboard in Resources */,
+				5E128E0F1EAE709C00B45EE6 /* Assets.xcassets in Resources */,
+				5E128E0D1EAE709C00B45EE6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5E128E001EAE709C00B45EE6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E128E0A1EAE709C00B45EE6 /* ViewController.swift in Sources */,
+				5E128E081EAE709C00B45EE6 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5E128E0B1EAE709C00B45EE6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5E128E0C1EAE709C00B45EE6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5E128E101EAE709C00B45EE6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5E128E111EAE709C00B45EE6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5E128E141EAE709C00B45EE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5E128E151EAE709C00B45EE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5E128E171EAE709C00B45EE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Advisor-Scheduler/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Paranoid-Jobs.Advisor-Scheduler";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		5E128E181EAE709C00B45EE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Advisor-Scheduler/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Paranoid-Jobs.Advisor-Scheduler";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5E128DFF1EAE709C00B45EE6 /* Build configuration list for PBXProject "Advisor-Scheduler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E128E141EAE709C00B45EE6 /* Debug */,
+				5E128E151EAE709C00B45EE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E128E161EAE709C00B45EE6 /* Build configuration list for PBXNativeTarget "Advisor-Scheduler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E128E171EAE709C00B45EE6 /* Debug */,
+				5E128E181EAE709C00B45EE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5E128DFC1EAE709C00B45EE6 /* Project object */;
+}
